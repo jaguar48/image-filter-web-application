@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: feed-api
+spec:
+  selector:
+    app: feed
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 8080
