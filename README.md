@@ -1,4 +1,4 @@
-# Udagram Image Filtering Application automated with docker
+# Udagram Image Filtering Application
 
 This is an image filter microservice application that uses Kubernetes and Travis CI for scalable deployment.. The initial challenge was setting up an automatic deployment pipeline which was made possible with Travis CI. The CI built the image and pushed it to DockerHub. I also had to write Kubernetes manifest files for the microservice where I did load balancing, Scaling, Self healings on the pods. Deployment was also triggered by Travis CI.
 You can find the attached screenshots on the project folders.
