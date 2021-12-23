@@ -1,6 +1,8 @@
-# Udagram Image Filtering Application
+# Udagram Image Filtering Application automated with docker
 
-Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
+This is an image filter microservice application that uses Kubernetes and Travis CI for scalable deployment.. The initialchallenge was setting up an automatic deployment pipeline which was made possible with Travis CI. The CI built the image and pushed it to DockerHub. I also had to write Kubernetes manifest files for the microservice where I did load balancing, Scaling, Self healings on the pods. Deployment was also triggered by Travis CI.
+You can find the attached screenshots on the project folders.
+
 
 The project is split into two parts:
 
@@ -99,3 +101,6 @@ Launch the frontend app locally.
 ```bash
 eksctl create cluster --name udagram --region us-east-1 --zones us-east-1a,us-east-1b,us-east-1c,us-east-1d --instance-types t3.small --nodegroup-name uda-nodes
 ```
+
+
+
