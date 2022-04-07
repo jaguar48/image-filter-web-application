@@ -1,3 +1,7 @@
+**The project application**: An Image Filtering application, allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice. 
+**It has two components**: Frontend - Angular web application built with Ionic framework
+Backend RESTful API - Node-Express application
+
 **Containers and Microservices**
 
 **Divide an application into microservices**: /feed and /user backends are separated into
